@@ -75,4 +75,5 @@ BOOL flag=false;
 }
 
 // Button Moi was selected. Button 1 enabled. ei tarkoitakkaan varsinaista painikkeen enablointia, vaan on vain satunnainen teksti
+// juuri näin
 @end

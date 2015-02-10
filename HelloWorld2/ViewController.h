@@ -8,8 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+// 1. Lisää ViewControlleriin UIAlertViewDelegate
 
+@interface ViewController : UIViewController <UIAlertViewDelegate>
+//Type qualifier used by Interface Builder to synchronize actions.
+// showAlert action
+- (IBAction)showAlert;
 
 @end
 
